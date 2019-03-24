@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/opt1"
+            android:icon="@drawable/ic_add_white_24dp"
+            android:title="a" />
+
+        <item
+            android:id="@+id/opt2"
+            android:icon="@drawable/ic_search_white_24dp"
+            android:title="b" />
+        <!--  <item
+              android:id="@+id/nav3"
+              android:icon="@drawable/baseline_forward_10_black_24"
+              android:title="@string/nav_item3" />-->
+    </group>
+</menu>

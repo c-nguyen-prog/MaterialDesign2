@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#cecece"
-    tools:context=".Main2Activity">
+    android:background="#fff"
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,8 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             app:srcCompat="@drawable/ic_add_white_24dp"
-            app:tint="@color/colorWhite"
-            app:backgroundTint="@color/colorBlack"
+            app:tint="@color/colorBlack"
+            app:backgroundTint="@color/colorWhite"
             app:fabSize="normal"
             app:layout_anchor="@id/bottom_app_bar" />
 
